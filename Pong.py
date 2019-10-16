@@ -183,7 +183,6 @@ while carryOn:
                 pygame.quit()
     pygame.display.update()
     clock.tick(60)
-    pygame.mixer.music.stop()
 
 # Once we have exited the main program loop we can stop the game engine:
 pygame.quit()
