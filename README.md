@@ -19,3 +19,10 @@ Once a player scores 11 points the result is declared.
 
 Paddle sounds, sounds when a point is scored and sounds when a player wins are also included to indulge the gamers and to make the game more interesting.
 
+# _Some Screenshots_
+
+![start page](https://github.com/YathaarthSuri/Ping_Pong_Smash/blob/master/Files/start_page.png)
+
+![game page](https://github.com/YathaarthSuri/Ping_Pong_Smash/blob/master/Files/game_page.png)
+
+![result page](https://github.com/YathaarthSuri/Ping_Pong_Smash/blob/master/Files/result_page.png)
