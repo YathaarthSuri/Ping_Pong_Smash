@@ -1,7 +1,9 @@
 # Ping_Pong_Smash
 Ping Pong game made using Pygame library of Python
 
-This is a multiplayer ping pong game with a scoreboard and result indicator.
+This is a multiplayer ping pong game with a real-time scoreboard and result indicator.
+
+The main file is Pong.py
 
 # _Controls_
 To start the game press **return key**
