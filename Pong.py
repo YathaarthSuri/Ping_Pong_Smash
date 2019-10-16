@@ -6,6 +6,8 @@ from ball import Ball
 
 pygame.init()
 
+player1 = input('Enter name of player 1')
+player2 = input('Enter name of player 2')
 
 # Define some colors
 BLACK = (0, 0, 0)
@@ -168,12 +170,12 @@ while carryOn:
     if scoreA == 11:
         effect = pygame.mixer.Sound('/Users/yathaarthsuri/Desktop/Python 3/venv/Ping_Pong_Smash/Files/cheer.wav')
         effect.play()
-        text_screen("Player 1 Wins", RED, 200, 190)
+        text_screen(f'{player1} Wins', RED, 200, 190)
         text_screen("To Quit Press x", RED, 180, 240)
     else:
         effect = pygame.mixer.Sound('/Users/yathaarthsuri/Desktop/Python 3/venv/Ping_Pong_Smash/Files/cheer.wav')
         effect.play()
-        text_screen("Player 2 Wins", RED, 200, 190)
+        text_screen(f'{player2} Wins', RED, 200, 190)
         text_screen("To Quit Press x", RED, 180, 240)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -183,6 +185,7 @@ while carryOn:
                 pygame.quit()
     pygame.display.update()
     clock.tick(60)
+    pygame.mixer.music.stop()
 
 # Once we have exited the main program loop we can stop the game engine:
 pygame.quit()
